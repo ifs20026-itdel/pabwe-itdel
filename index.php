@@ -12,14 +12,14 @@
         <div class="card">
             <div class="card-body w-50 mx-auto">
 
-                <img src="assets/img/foto1.jpeg" alt="foto-saya" class="img-thumbnail d-block mx-auto" width="150"/>
+                <img src="./assets/img/foto1.jpg" alt="foto-saya" class="img-thumbnail d-block mx-auto" width="150"/>
                 <h3 class="text-center">11S20026_Ivanston Simbolon</h3>
 
                 <div class="list-group">
                     <li href="#" class="list-group-item list-group-item-action active" aria-current="true">
                       <h3>Hasil Praktikum</h3>
                     </li>
-                    <a href="./week2/profil.html" class="list-group-item list-group-item-action">Minggu Ke-2</a>
+                    <a href="./minggu2/profil.html" class="list-group-item list-group-item-action">Minggu Ke-2</a>
                     <a href="./minggu3/loginval.html" class="list-group-item list-group-item-action">Minggu Ke-3</a>
                     <a href="./minggu4/index.html" class="list-group-item list-group-item-action">Minggu Ke-4</a>
                 </div>
