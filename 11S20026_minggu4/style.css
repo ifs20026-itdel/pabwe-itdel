@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: cornflowerblue;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  nav {
+    font-size: 18px;
+    float: left;
+    width: 40%;
+    height: 385px;
+    background: aliceblue;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: aliceblue;
+  }
+  
+  table{
+      border-style: solid;
+      padding: 20px;
+      width: 100%;
+      background-color: #f1f1f1;
+      height: auto;
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: b;
+    height: auto;
+  }
+  
+  footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background-color: cornflowerblue;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  .login{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -200px;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 220px
+  }
