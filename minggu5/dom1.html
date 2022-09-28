@@ -1,0 +1,61 @@
+<!-- 
+    Nama File   : dom1.html
+    NIM         : 11S20026
+    Kelas       : 13IF2 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Input</title>
+
+    <style>
+      .btn {
+        margin-left: 300px;
+        margin-top: 5px;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250px;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(235, 140, 140)">
+    <fieldset style="background-color: rgb(245, 177, 177)">
+      <form action="" method="post">
+        <label for="name">Masukkan Nama Anda : </label>
+        <input type="text" name="input" id="name " class="name" />
+        <br />
+        <button type="button" class="btn">Insert</button>
+        <br /><br />
+        <p class="text"></p>
+        <button type="button" class="ganti">Ganti Warna</button>
+        <a href="mahasiswa.html"><button type="button" class="ganti">Daftar Akun</button></a>
+      </form>
+
+      <script>
+        const tombol = document.querySelector(".btn");
+        const ganti = document.querySelector(".ganti");
+        const nama = document.querySelector(".name");
+        const text = document.querySelector(".text");
+        const kalimat = "Nama saya adalah ";
+
+        tombol.addEventListener("click", function () {
+          text.innerHTML = kalimat + nama.value;
+        });
+        ganti.addEventListener("click", function () {
+          const rand1 = Math.round(Math.random() * 255 + 1);
+          const rand2 = Math.round(Math.random() * 255 + 1);
+          const rand3 = Math.round(Math.random() * 255 + 1);
+
+          text.style.color = "rgb(" + rand1 + "," + rand2 + "," + rand3 + ")";
+        });
+      </script>
+    </fieldset>
+  </body>
+</html>
