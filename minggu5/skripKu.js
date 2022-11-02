@@ -1,6 +1,6 @@
 // Nama File   : skripKu.js
-// NIM         : 11S20034
-// Kelas       : 13IF2
+// NIM         : 11S20026
+// Kelas       : 13IF1
 
 const tombol = document.querySelector(".btn");
 const nama = document.querySelector(".name");
